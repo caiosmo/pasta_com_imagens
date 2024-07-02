@@ -1,11 +1,11 @@
-*** CONFIGURAÇÃO DO MAVEN RESOURCES PLUGIN
+**CONFIGURAÇÃO DO MAVEN RESOURCES PLUGIN**
 <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-resources-plugin</artifactId>
 	<version>3.1.0</version>
 </plugin>
 
-*** CONFIGURAÇÃO DO BANCO DE DADOS
+**CONFIGURAÇÃO DO BANCO DE DADOS**
 
 # Dados de conexão com o banco H2
 spring.datasource.url=jdbc:h2:mem:testdb
@@ -24,7 +24,7 @@ spring.jpa.properties.hibernate.format_sql=true
 # Configuração para criar as tabelas automaticamente
 spring.jpa.hibernate.ddl-auto=create-drop
 
-*** SCRIPT SQl (import.sql)
+**SCRIPT SQl (import.sql)**
 INSERT INTO tb_department(name) VALUES ('Gestão');
 INSERT INTO tb_department(name) VALUES ('Informática');
 
