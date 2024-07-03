@@ -5,6 +5,9 @@
 	<version>3.1.0</version>
 </plugin>
 
+https://github.com/caiosmo/springboot/blob/main/objetos.png
+https://github.com/caiosmo/springboot/blob/main/dominio.png
+
 **CONFIGURAÇÃO DO BANCO DE DADOS**
 
 # Dados de conexão com o banco H2
